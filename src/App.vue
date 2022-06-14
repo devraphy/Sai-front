@@ -28,12 +28,12 @@ export default {
 @import "~/scss/main"; // main.scss 사용
 
 .left-container {
-  width: 18%;
   // border: 1px solid red;
+  margin-right: 5%;
 }
 
 .right-container {
   // border:1px solid green;
-  width: 100%;
+  width:75%;
 }
 </style>

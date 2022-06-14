@@ -3,16 +3,16 @@
     class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion flex-column"
     id="accordionSidebar">
     <!-- Sidebar - Brand -->
-    <a
+    <!-- <a
       class="sidebar-brand d-flex align-items-center justify-content-center"
       href="/">
-    </a>
-
+    </a> -->
+    <hr />
     <a
       class="sidebar-brand d-flex align-items-center justify-content-center"
-      href="/">
+      href="#">
       <div class="sidebar-brand-icon rotate-n-15">
-        <i class="fas fa-laugh-wink"></i>
+        <!-- <i class="fas fa-laugh-wink"></i> -->
       </div>
       <div class="sidebar-brand-text mx-3"><sup>너와 나의</sup> 사이</div>
     </a>
@@ -25,9 +25,9 @@
     <li class="nav-item active">
       <a
         class="nav-link"
-        href="/">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Home</span></a>
+        href="#">&nbsp;
+        <i class="fa-solid fa-house"></i>
+        <span>&nbsp;Home</span></a>
     </li>
 
     <!-- Divider -->
@@ -42,9 +42,9 @@
     <li class="nav-item">
       <a
         class="nav-link"
-        href="#/friend">
-        <i class="fas fa-fw fa-cog"></i>
-        <span>Friends</span>
+        href="#/friend">&nbsp;
+        <i class="fa-solid fa-fw fa-user-group"></i>
+        <span>&nbsp;Friends</span>
       </a>
     </li>
 
@@ -52,18 +52,18 @@
     <li class="nav-item">
       <a
         class="nav-link "
-        href="#/event">
-        <i class="fas fa-fw fa-wrench"></i>
-        <span>Events</span>
+        href="#/event">&nbsp;
+        <i class="fa-solid fa-calendar-days"></i>
+        <span>&nbsp;Events</span>
       </a>
     </li>
 
     <li class="nav-item">
       <a
         class="nav-link"
-        href="#/analysis">
-        <i class="fas fa-fw fa-wrench"></i>
-        <span>Analysis</span>
+        href="#/analysis">&nbsp;
+        <i class="fa-solid fa-chart-line"></i>
+        <span>&nbsp;Analysis</span>
       </a>
     </li>
 
@@ -79,9 +79,9 @@
     <li class="nav-item">
       <a
         class="nav-link"
-        href="#/profile">
-        <i class="fas fa-fw fa-folder"></i>
-        <span>Profile</span>
+        href="#/profile">&nbsp;
+        <i class="fa-solid fa-user-astronaut"></i>
+        <span>&nbsp;Profile</span>
       </a>
     </li>
 
@@ -89,9 +89,9 @@
     <li class="nav-item">
       <a
         class="nav-link"
-        href="#/about">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>About</span></a>
+        href="#/about">&nbsp;
+        <i class="fa-solid fa-circle-question"></i>
+        <span>&nbsp;About</span></a>
     </li>
 
     <!-- Divider -->
