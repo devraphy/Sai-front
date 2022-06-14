@@ -1,0 +1,42 @@
+
+// Default variable overrides (여기서 정의된 색상을 가지고 variables를 가져온다.)
+// $primary: #FDC000; // primary 이름이 붙은 클래스에는 다 노란색이 적용된다. (색상 재정의)
+
+// 재정의 가능한 변수 값 
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// );
+
+// Required
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/mixins";
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "./mixins.scss";
+@import "./global.scss";
+@import "./utilities.scss";
+
+// Custom Components
+@import "./dropdowns.scss";
+@import "./navs.scss";
+@import "./buttons.scss";
+@import "./cards.scss";
+@import "./charts.scss";
+@import "./login.scss";
+@import "./error.scss";
+@import "./footer.scss";

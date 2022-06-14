@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from './Home';
 import About from './About';
-import Friends from './Friends';
+import Friend from './Friend';
 import Analysis from './Analysis';
-import Info from './Info';
+import Profile from './Profile';
+import Event from './Event'
 
 
 export default createRouter({
@@ -21,16 +22,20 @@ export default createRouter({
       component:About
     },
     {
-      path:'/friends',
-      component: Friends
+      path:'/friend',
+      component: Friend
     },
     {
       path:'/analysis',
       component: Analysis
     },
     {
-      path:'/info',
-      component: Info
+      path:'/profile',
+      component: Profile
+    },
+    {
+      path:'/event',
+      component: Event
     }
   ]
 
