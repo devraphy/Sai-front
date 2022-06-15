@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~/scss/main"; // main.scss 사용
+@import "./scss/main.scss"; // main.scss 사용
 
 .left-container {
   // border: 1px solid red;
