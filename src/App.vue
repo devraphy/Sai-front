@@ -4,7 +4,6 @@
       <Sidebar class="sidebar" />
     </div>
     <div class="right-container">
-      <Topbar />
       <Header />
       <RouterView />
       <Footer />
@@ -18,17 +17,15 @@
 </template>
 
 <script>
-import Sidebar from './components/Sidebar'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Topbar from './components/Topbar'
+import Sidebar from './components/navbar/Sidebar'
+import Footer from './components/navbar/Footer'
+import Header from './components/navbar/Header'
 
 export default {
   components: {
     Header,
     Sidebar,
-    Footer,
-    Topbar
+    Footer
   }
 }
 </script>

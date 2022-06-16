@@ -159,7 +159,7 @@
             <div class="dropdown-list-image mr-3">
               <img
                 class="rounded-circle"
-                src="../img/profile/small.png"
+                src=""
                 alt="..." />
               <div class="status-indicator bg-success"></div>
             </div>
@@ -191,7 +191,7 @@
             <div class="dropdown-list-image mr-3">
               <img
                 class="rounded-circle"
-                src="img/undraw_profile_3.svg"
+                src=""
                 alt="..." />
               <div class="status-indicator bg-warning"></div>
             </div>
@@ -238,7 +238,7 @@
           <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
           <img
             class="img-profile rounded-circle"
-            src="img/undraw_profile.svg" />
+            src="" />
         </a>
         <!-- Dropdown - User Information -->
         <div

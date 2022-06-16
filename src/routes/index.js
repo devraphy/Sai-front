@@ -1,11 +1,11 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from './Home';
-import About from './About';
-import Friend from './Friend';
-import Analysis from './Analysis';
-import Profile from './Profile';
-import Event from './Event'
-
+import Home from '../components/Home';
+import About from '../components/About';
+import Friend from '../components/Friend';
+import Analysis from '../components/Analysis';
+import Profile from '../components/Profile';
+import Event from '../components/Event'
+import Visit from '../components/Visit'
 
 export default createRouter({
 
@@ -36,6 +36,10 @@ export default createRouter({
     {
       path:'/event',
       component: Event
+    },
+    {
+      path:'/visit',
+      component: Visit
     }
   ]
 

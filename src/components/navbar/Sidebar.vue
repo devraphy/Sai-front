@@ -84,6 +84,15 @@
         <span>&nbsp;Profile</span>
       </a>
     </li>
+    
+    <!-- Nav Item - Visit -->
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        href="#/about">&nbsp;
+        <i class="fa-solid fa-comment-dots"></i>
+        <span>&nbsp;Visitors</span></a>
+    </li>
 
     <!-- Nav Item - About -->
     <li class="nav-item">
@@ -102,7 +111,7 @@
       <br />
       <img
         class="sidebar-card-illustration mb-3"
-        src="../img/profile/devRaphy.png" 
+        src="../../img/profile/devRaphy.png" 
         onerror="no image" />
       <p class="text-center mb-3">
         made by <strong>DevRaphy</strong>
