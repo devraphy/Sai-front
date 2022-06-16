@@ -4,10 +4,16 @@
       <Sidebar class="sidebar" />
     </div>
     <div class="right-container">
+      <Topbar />
       <Header />
       <RouterView />
       <Footer />
     </div>
+    <a
+      class="scroll-to-top rounded"
+      href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
   </div>
 </template>
 
@@ -15,11 +21,14 @@
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Topbar from './components/Topbar'
+
 export default {
   components: {
     Header,
     Sidebar,
-    Footer
+    Footer,
+    Topbar
   }
 }
 </script>
@@ -27,13 +36,12 @@ export default {
 <style lang="scss">
 @import "./scss/main.scss"; // main.scss 사용
 
-.left-container {
-  // border: 1px solid red;
-  margin-right: 5%;
-}
+// .left-container {
+//   // border: 1px solid red;
+// }
 
 .right-container {
   // border:1px solid green;
-  width:75%;
+  width:100%;
 }
 </style>

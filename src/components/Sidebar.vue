@@ -109,13 +109,13 @@
       </p>
       <a
         class="btn btn-info btn-sm"
-        href="https://github.com/devraphy"
-        target="_blank">Link To GitHub</a>
+        href="https://devraphy.tistory.com"
+        target="_blank">Link to Blog</a>
       <br />
       <a
         class="btn btn-info btn-sm"
-        href="https://devraphy.tistory.com"
-        target="_blank">Link To Tech Blog</a>
+        href="https://github.com/devraphy"
+        target="_blank">Link to GitHub</a>
     </div>
   </ul>
   <!-- End of Sidebar -->
