@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss">
 @import "./scss/main.scss"; // main.scss 사용
-
+@import "./assets/css/sb-admin-2.css";
 // .left-container {
 //   // border: 1px solid red;
 // }
