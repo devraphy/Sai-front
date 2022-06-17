@@ -10,6 +10,9 @@ import * as dbjQuery from './assets/vendor/datatables/jquery.dataTables'
 import * as dbBoot from './assets/vendor/datatables/dataTables.bootstrap4'
 import * as dbDemo from './assets/js/demo/datatables-demo'
 
+
 createApp(App)
-.use(router, jQuery, jQueryEasing, bootBundle, sbadmin, dbjQuery, dbBoot, dbDemo)
+.use(router)
 .mount('#app')
+.loadScript(jQuery, jQueryEasing, bootBundle, sbadmin, dbjQuery, dbBoot, dbDemo)
+// Vue 전체 사이클 이해할 것. 언제 JS 로딩되는지 알아야함. 
