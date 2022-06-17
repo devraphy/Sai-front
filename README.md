@@ -1,2 +1,2 @@
-# vue3-basic-template
-basic template with eslint for vue3 
+# 프로젝트 SAI(Social Activity Interpreter)
+## 너와 나의 사이
