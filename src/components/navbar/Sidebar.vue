@@ -89,7 +89,7 @@
     <li class="nav-item">
       <a
         class="nav-link"
-        href="#/about">&nbsp;
+        href="#/visit">&nbsp;
         <i class="fa-solid fa-comment-dots"></i>
         <span>&nbsp;Visitors</span></a>
     </li>

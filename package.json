@@ -47,7 +47,6 @@
     "jquery": "^3.6.0",
     "jquery.easing": "^1.4.1",
     "vue": "^3.0.11",
-    "vue-plugin-load-script": "^2.1.1",
     "vue-router": "^4.0.16"
   }
 }
