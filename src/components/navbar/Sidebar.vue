@@ -114,7 +114,7 @@
         src="../../img/profile/devRaphy.png" 
         onerror="no image" />
       <p class="text-center mb-3">
-        made by <strong>DevRaphy</strong>
+        <strong>DevRaphy</strong>
       </p>
       <a
         class="btn btn-info btn-sm"

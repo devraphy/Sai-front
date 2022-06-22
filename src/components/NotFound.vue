@@ -13,7 +13,7 @@
       <p class="text-gray-500 mb-0">
         It looks like you found a glitch in the matrix...
       </p>
-      <a href="/">&larr; Back to Dashboard</a>
+      <a href="#">&larr; Back to Dashboard</a>
     </div>
   </div>
   <!-- /.container-fluid -->

@@ -5,8 +5,10 @@
     </div>
     <div class="right-container">
       <Header />
-      <RouterView />
-      <Footer />
+      <div class="right-content-wrapper">
+        <RouterView />
+        <Footer />
+      </div>
     </div>
     <a
       class="scroll-to-top rounded"
@@ -40,12 +42,13 @@ export default {
 <style lang="scss">
 @import "./scss/main.scss"; // main.scss 사용
 @import "./assets/css/sb-admin-2.css";
-// .left-container {
-//   // border: 1px solid red;
-// }
 
+.left-container {
+  min-height:100vh;
+}
 .right-container {
   // border:1px solid green;
   width:100%;
+  min-height:100vh; // 이거 고치려고 했다. notfound 들어가서 확인해봐라 
 }
 </style>
