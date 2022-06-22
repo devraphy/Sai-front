@@ -17,6 +17,13 @@
 </template>
 
 <script>
+import * as jQuery from './assets/vendor/jquery/jquery.min.js'
+import * as jQueryEasing from './assets/vendor/jquery-easing/jquery.easing.min.js'
+import * as jQueryDataTable from './assets/vendor/datatables/jquery.dataTables.min.js'
+import * as BootStrap from './assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
+import * as DataTableBootStrap from './assets/vendor/datatables/dataTables.bootstrap4.min.js'
+import * as SbAdminScript from './assets/js/sb-admin-2.min.js'
+
 import Sidebar from './components/navbar/Sidebar'
 import Footer from './components/navbar/Footer'
 import Header from './components/navbar/Header'
@@ -26,7 +33,7 @@ export default {
     Header,
     Sidebar,
     Footer
-  }
+  },
 }
 </script>
 

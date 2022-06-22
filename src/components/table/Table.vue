@@ -490,7 +490,7 @@
 </template>
 <script>
 export default {
-  mounted() {
+  created() {
     jQuery(function($) {
       $('#dataTable').DataTable();
     });
