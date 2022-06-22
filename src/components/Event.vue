@@ -1,3 +1,11 @@
 <template>
-  <h1>This is Event</h1>
+  <Table />
 </template>
+<script>
+import Table from './table/Table';
+export default {
+  components: {
+    Table
+  }
+}
+</script>

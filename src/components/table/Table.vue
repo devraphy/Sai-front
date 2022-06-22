@@ -488,3 +488,12 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  mounted() {
+    jQuery(function($) {
+      $('#dataTable').DataTable();
+    });
+  }
+}
+</script>

@@ -1,5 +1,4 @@
 <template>
-  <h1>This is Friends</h1>
   <Table />
 </template>
 <script>
