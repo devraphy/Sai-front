@@ -1,7 +1,7 @@
 # 프로젝트 SAI(Social Activity Interpreter)
 ### * 프로젝트 SAI의 프론트 개발을 위한 Repository 입니다.
 ### * 백엔드 개발 코드를 보고 싶으시다면, 아래의 링크로 이동해주시기 바랍니다.
-### [SAI 백엔드 바로가기](https://github.com/devraphy/sai-back)
+- [SAI 백엔드 바로가기](https://github.com/devraphy/sai-back)
 <hr>
 
 # 사이(SAI) 소개
@@ -35,4 +35,7 @@
 
 </br>
 
-### [블로그에서 구경하기](https://devraphy.tistory.com/624)
+### e) 개발 명세 및 보고서
+- 사이의 개발 과정이 궁금하신 분들은 아래의 링크를 확인해주시면 감사하겠습니다. 
+- [사이 개발 명세 및 보고서 바로가기](https://docs.google.com/spreadsheets/d/1BZaCrvZ1CDQfG-mHz1vHmHRu7D0na4q504e9GBBEco8/edit?usp=sharing)
+
