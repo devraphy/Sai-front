@@ -5,13 +5,17 @@
 - 사이의 개발 과정이 궁금하시다면 아래의 링크를 확인해주세요!
 - [사이 개발 명세 및 보고서 바로가기](https://docs.google.com/spreadsheets/d/1BZaCrvZ1CDQfG-mHz1vHmHRu7D0na4q504e9GBBEco8/edit?usp=sharing)
 
+### * 개발 이야기
+- 사이의 개발 과정이 궁금하시다면 아래의 링크를 확인해주세요!
+- [사이 개발 과정 바로가기](https://devraphy.tistory.com/624)
+
 ### * 백엔드 개발 코드
 - 백엔드 코드가 궁금하시다면, 아래의 링크로 이동해주시기 바랍니다.
 - [SAI 백엔드 바로가기](https://github.com/devraphy/sai-back)
 
 <hr>
 
-# 사이(SAI) 소개
+## 사이(SAI) 소개
 
 ### a) 개발 동기 - 해결하려는 문제 및 비즈니스
 - 본 개발자는 사람을 만나는 것에 에너지를 소비하는 성향으로, 사람 간의 일을 잘 기억하지 못합니다.
