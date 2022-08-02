@@ -1,26 +1,13 @@
 <template lang="html">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>SAI</title>
-</head>
-
-<body class="bg-gradient-primary">
-
     <div class="container">
         <!-- Outer Row -->
         <div class="row justify-content-center">
-
             <div class="col-xl-10 col-lg-12 col-md-9">
-
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
+                            <!-- 강아지 사진 들어가는 태그 -->
                             <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
@@ -67,31 +54,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </div>
-</body>
-
 </template>
-
-<script>
-import * as jQuery from '../assets/vendor/jquery/jquery.min.js'
-import * as jQueryEasing from '../assets/vendor/jquery-easing/jquery.easing.min.js'
-import * as jQueryDataTable from '../assets/vendor/datatables/jquery.dataTables.min.js'
-import * as BootStrap from '../assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
-import * as DataTableBootStrap from '../assets/vendor/datatables/dataTables.bootstrap4.min.js'
-import * as SbAdminScript from '../assets/js/sb-admin-2.min.js'
-
-export default {
-    name:'Login'
-}
-</script>
-
-<style lang="scss">
-@import "../scss/main.scss"; // main.scss 사용
-@import "../assets/css/sb-admin-2.css";
-
+<style lang="css">
 </style>

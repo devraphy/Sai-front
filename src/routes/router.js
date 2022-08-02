@@ -7,6 +7,8 @@ import Profile from '../components/Profile'
 import Event from '../components/Event'
 import NotFound from '../components/NotFound'
 import Login from '../components/Login.vue'
+import SignUp from '../components/SignUp.vue'
+
 import Header from '../components/navbar/Header'
 import Sidebar from '../components/navbar/Sidebar'
 import Footer from '../components/navbar/Footer'
@@ -76,6 +78,13 @@ export default createRouter({
         header: Header,
         sidebar: Sidebar,
         footer: Footer
+      }
+    },
+    {
+      name:'SignUp',
+      path:'/signup',
+      components: {
+        default: SignUp
       }
     },
     {
