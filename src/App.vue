@@ -44,11 +44,16 @@ export default {
 @import "./assets/css/sb-admin-2.css";
 
 .left-container {
-  min-height:100vh;
+  min-height:100%;
 }
 .right-container {
   // border:1px solid green;
   width:100%;
-  min-height:100vh; // 이거 고치려고 했다. notfound 들어가서 확인해봐라 
+  min-height:100vh;
+}
+
+body { // 무한 스크롤 방지
+  height:100%; 
+  overflow:hidden;
 }
 </style>
