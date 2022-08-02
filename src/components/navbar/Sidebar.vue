@@ -10,7 +10,7 @@
     <hr />
     <a
       class="sidebar-brand d-flex align-items-center justify-content-center"
-      href="#">
+      href="#/home">
       <div class="sidebar-brand-icon rotate-n-15">
         <!-- <i class="fas fa-laugh-wink"></i> -->
       </div>
@@ -20,12 +20,11 @@
     <!-- Divider -->
     <hr class="sidebar-divider my-0" />
 
-
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
       <a
         class="nav-link"
-        href="#">&nbsp;
+        href="#/home">&nbsp;
         <i class="fa-solid fa-house"></i>
         <span>&nbsp;Home</span></a>
     </li>
@@ -85,15 +84,6 @@
       </a>
     </li>
     
-    <!-- Nav Item - Visit -->
-    <li class="nav-item">
-      <a
-        class="nav-link"
-        href="#/visit">&nbsp;
-        <i class="fa-solid fa-comment-dots"></i>
-        <span>&nbsp;Visitors</span></a>
-    </li>
-
     <!-- Nav Item - About -->
     <li class="nav-item">
       <a

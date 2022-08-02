@@ -1,13 +1,13 @@
 <template>
   <div class="wrapper d-flex flex-row">
     <div class="left-container">
-      <Sidebar class="sidebar" />
+      <RouterView name="sidebar" class="sidebar" />
     </div>
     <div class="right-container">
-      <Header />
+      <RouterView name="header" />
       <div class="right-content-wrapper">
         <RouterView />
-        <Footer />
+        <RouterView name="footer" />
       </div>
     </div>
     <a

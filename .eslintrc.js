@@ -17,8 +17,8 @@ module.exports = {
   },  
   rules: { // custom 규칙을 추가할 때 작성
     "vue/html-closing-bracket-newline": ["error", {
-      "singleline": "never",
-      "multiline": "never"
+      "singleline": "true",
+      "multiline": "true"
     }],
     "vue/html-self-closing": ["error", {
       "html": {

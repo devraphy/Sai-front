@@ -18,13 +18,8 @@ module.exports = {
 
   //결과물(번들)을 반환하는 설정 
   output: {
-    // path: path.resolve(__dirname, 'dist'), // 결과물의 반환지점을 설정 
-    // filename: 'main.js',
-    // 위에 path와 filename 을 주석처리 한 이유는, default로 설정되어 있기 때문
-    // path는 dist로 filename은 위에 entry에 설정한 파일이름 그대로 따라감
-    // npm run build 입력하면 dist 폴더와 내부파일(결과물)이 생성됨   
-
-    clean: true // 덮어쓰기 기능 속성 
+    clean: true, // 덮어쓰기 기능 속성 
+    filename: "[name].bundle.js"
   },
 
   module: {
