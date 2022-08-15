@@ -20,15 +20,13 @@ export default createRouter({
   history: createWebHashHistory(),
   routes: [
     {
-      path: '/',
-      redirect:'/login'
+      path: '/login',
+      redirect:'/'
     },
     {
       name:'Login',
-      path:'/login',
-      components: {
-        default: Login
-      }
+      path:'/',
+      component: Login
     },
     {
       name:'Home',
