@@ -13,12 +13,12 @@
       <div class="btn-container">
         <button
           type="button"
-          class="btn btn-md btn-primary btn-addEvent mx-4">
+          class="btn btn-md btn-primary mx-4">
           Add Event
         </button>
         <button
           type="button"
-          class="btn btn-md btn-primary btn-addEvent">
+          class="btn btn-md btn-primary">
           Add Friend
         </button>
       </div>

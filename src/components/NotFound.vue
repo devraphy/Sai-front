@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid pt-5 mt-5">
+  <div class="container-404 container-fluid pt-5 mt-5">
     <!-- 404 Error Text -->
     <div class="text-center">
       <div
@@ -16,5 +16,12 @@
       <a href="#">&larr; Back to Dashboard</a>
     </div>
   </div>
-  <!-- /.container-fluid -->
 </template>
+<style lang="css">
+.container-404 {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+</style>

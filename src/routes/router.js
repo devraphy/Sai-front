@@ -100,8 +100,6 @@ export default createRouter({
       path:'/:notFound(.*)',
       components: {
         default: NotFound,
-        header: Header,
-        sidebar: Sidebar,
         footer: Footer
       }
     }
