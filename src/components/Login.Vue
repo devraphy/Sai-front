@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="container">
+    <div class="login-container container d-flex flex-column justify-content-center">
         <!-- Outer Row -->
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-md-9">
@@ -59,4 +59,7 @@
     </div>
 </template>
 <style lang="css">
+.login-container {
+    min-height: 100vh;
+}
 </style>
