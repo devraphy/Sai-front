@@ -10,11 +10,18 @@
           href="#"
           @click="onClickNext(currentMonth)">▶</a>
       </h2>
-      <button
-        type="button"
-        class="btn btn-md btn-primary btn-addEvent">
-        Add Event
-      </button>
+      <div class="btn-container">
+        <button
+          type="button"
+          class="btn btn-md btn-primary btn-addEvent mx-4">
+          Add Event
+        </button>
+        <button
+          type="button"
+          class="btn btn-md btn-primary btn-addEvent">
+          Add Friend
+        </button>
+      </div>
     </div>
     <table class="table table-hover">
       <thead>
