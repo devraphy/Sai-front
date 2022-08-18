@@ -20,12 +20,12 @@ export default createRouter({
   history: createWebHashHistory(),
   routes: [
     {
-      path: '/login',
-      redirect:'/'
+      path: '/',
+      redirect:'/login' // meta 속성을 설정하면 접근 제한을 구현할 수 있음
     },
     {
       name:'Login',
-      path:'/',
+      path:'/login',
       component: Login
     },
     {
